@@ -1,0 +1,15 @@
+export ZSH="$HOME/.oh-my-zsh"
+
+ZSH_THEME="eastwood"
+
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete)
+
+source $ZSH/oh-my-zsh.sh
+
+alias Ds='ssh ubuntu@151.80.148.125 -p 22'
+alias meta='sudo systemctl start postgresql && sudo msfconsole'
+alias rainbow='ssh samvelt@rainbow.energaming.systems'
+alias ip='dig -4 TXT +short o-o.myaddr.l.google.com @ns1.google.com'
+alias n='nvim'
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
