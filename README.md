@@ -1,4 +1,4 @@
-Install ZSH.
+Install ZSH. \n
 sudo apt install zsh-autosuggestions zsh-syntax-highlighting zsh
 Install Oh my ZSH.
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
